@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyCam (2.6.0)
+
+DEPENDENCIES:
+  - SwiftyCam
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftyCam
+
+SPEC CHECKSUMS:
+  SwiftyCam: 86c114177a1b1f5dc2c82384577d0c20b922a31b
+
+PODFILE CHECKSUM: 27d301a7e92360ee0f79966f9d06eae33b4e2b0c
+
+COCOAPODS: 1.5.3

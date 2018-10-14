@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BD7EBBAEC193686063AA4C7 /* Pods_Flashtrend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F7F5C16584D7BB5A2761CD /* Pods_Flashtrend.framework */; };
+		ABA98BE0A72FA694400EA16C /* Pods_FlashtrendUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8CF9ADE102F7FD173C095BC /* Pods_FlashtrendUITests.framework */; };
+		F77ED04D2171BEC4004E63AC /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77ED04B2171BEC3004E63AC /* VideoViewController.swift */; };
+		F77ED04E2171BEC4004E63AC /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77ED04C2171BEC4004E63AC /* PhotoViewController.swift */; };
+		F7B75564217125A000504875 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B75563217125A000504875 /* AppDelegate.swift */; };
+		F7B75566217125A000504875 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B75565217125A000504875 /* ViewController.swift */; };
+		F7B75569217125A000504875 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7B75567217125A000504875 /* Main.storyboard */; };
+		F7B7556B217125A200504875 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B7556A217125A200504875 /* Assets.xcassets */; };
+		F7B7556E217125A200504875 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7B7556C217125A200504875 /* LaunchScreen.storyboard */; };
+		F7B75579217125A200504875 /* FlashtrendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B75578217125A200504875 /* FlashtrendUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7B75575217125A200504875 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7B75558217125A000504875 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7B7555F217125A000504875;
+			remoteInfo = Flashtrend;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		340F1DF8A8B22630BBA9F2D1 /* Pods-Flashtrend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flashtrend.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flashtrend/Pods-Flashtrend.debug.xcconfig"; sourceTree = "<group>"; };
+		47EED99AC53C666822F94F9C /* Pods-Flashtrend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flashtrend.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flashtrend/Pods-Flashtrend.release.xcconfig"; sourceTree = "<group>"; };
+		4CB9F896DC449CDC9D568616 /* Pods-FlashtrendUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashtrendUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlashtrendUITests/Pods-FlashtrendUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8CF9ADE102F7FD173C095BC /* Pods_FlashtrendUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlashtrendUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DC20B2D9361EE247DB3B52 /* Pods-FlashtrendUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashtrendUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlashtrendUITests/Pods-FlashtrendUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D5F7F5C16584D7BB5A2761CD /* Pods_Flashtrend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flashtrend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77ED04B2171BEC3004E63AC /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		F77ED04C2171BEC4004E63AC /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		F7B75560217125A000504875 /* Flashtrend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashtrend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B75563217125A000504875 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7B75565217125A000504875 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7B75568217125A000504875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7B7556A217125A200504875 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7B7556D217125A200504875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7B7556F217125A200504875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7B75574217125A200504875 /* FlashtrendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashtrendUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B75578217125A200504875 /* FlashtrendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashtrendUITests.swift; sourceTree = "<group>"; };
+		F7B7557A217125A200504875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7B7555D217125A000504875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD7EBBAEC193686063AA4C7 /* Pods_Flashtrend.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B75571217125A200504875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA98BE0A72FA694400EA16C /* Pods_FlashtrendUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F953049C90FE4F6996750DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5F7F5C16584D7BB5A2761CD /* Pods_Flashtrend.framework */,
+				A8CF9ADE102F7FD173C095BC /* Pods_FlashtrendUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE6085C188F013B924FACA81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				340F1DF8A8B22630BBA9F2D1 /* Pods-Flashtrend.debug.xcconfig */,
+				47EED99AC53C666822F94F9C /* Pods-Flashtrend.release.xcconfig */,
+				4CB9F896DC449CDC9D568616 /* Pods-FlashtrendUITests.debug.xcconfig */,
+				C4DC20B2D9361EE247DB3B52 /* Pods-FlashtrendUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F7B75557217125A000504875 = {
+			isa = PBXGroup;
+			children = (
+				F7B75562217125A000504875 /* Flashtrend */,
+				F7B75577217125A200504875 /* FlashtrendUITests */,
+				F7B75561217125A000504875 /* Products */,
+				CE6085C188F013B924FACA81 /* Pods */,
+				4F953049C90FE4F6996750DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7B75561217125A000504875 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7B75560217125A000504875 /* Flashtrend.app */,
+				F7B75574217125A200504875 /* FlashtrendUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7B75562217125A000504875 /* Flashtrend */ = {
+			isa = PBXGroup;
+			children = (
+				F7B75563217125A000504875 /* AppDelegate.swift */,
+				F7B75565217125A000504875 /* ViewController.swift */,
+				F77ED04B2171BEC3004E63AC /* VideoViewController.swift */,
+				F77ED04C2171BEC4004E63AC /* PhotoViewController.swift */,
+				F7B75567217125A000504875 /* Main.storyboard */,
+				F7B7556A217125A200504875 /* Assets.xcassets */,
+				F7B7556C217125A200504875 /* LaunchScreen.storyboard */,
+				F7B7556F217125A200504875 /* Info.plist */,
+			);
+			path = Flashtrend;
+			sourceTree = "<group>";
+		};
+		F7B75577217125A200504875 /* FlashtrendUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7B75578217125A200504875 /* FlashtrendUITests.swift */,
+				F7B7557A217125A200504875 /* Info.plist */,
+			);
+			path = FlashtrendUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7B7555F217125A000504875 /* Flashtrend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7B7557D217125A200504875 /* Build configuration list for PBXNativeTarget "Flashtrend" */;
+			buildPhases = (
+				799073E75F329AA6447ED139 /* [CP] Check Pods Manifest.lock */,
+				F7B7555C217125A000504875 /* Sources */,
+				F7B7555D217125A000504875 /* Frameworks */,
+				F7B7555E217125A000504875 /* Resources */,
+				0D2526E5BDBF1C7233B2A13E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flashtrend;
+			productName = Flashtrend;
+			productReference = F7B75560217125A000504875 /* Flashtrend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7B75573217125A200504875 /* FlashtrendUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7B75580217125A200504875 /* Build configuration list for PBXNativeTarget "FlashtrendUITests" */;
+			buildPhases = (
+				AA460374F3E5698ABCD3C2D8 /* [CP] Check Pods Manifest.lock */,
+				F7B75570217125A200504875 /* Sources */,
+				F7B75571217125A200504875 /* Frameworks */,
+				F7B75572217125A200504875 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7B75576217125A200504875 /* PBXTargetDependency */,
+			);
+			name = FlashtrendUITests;
+			productName = FlashtrendUITests;
+			productReference = F7B75574217125A200504875 /* FlashtrendUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7B75558217125A000504875 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = shahidmohd;
+				TargetAttributes = {
+					F7B7555F217125A000504875 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					F7B75573217125A200504875 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F7B7555F217125A000504875;
+					};
+				};
+			};
+			buildConfigurationList = F7B7555B217125A000504875 /* Build configuration list for PBXProject "Flashtrend" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7B75557217125A000504875;
+			productRefGroup = F7B75561217125A000504875 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7B7555F217125A000504875 /* Flashtrend */,
+				F7B75573217125A200504875 /* FlashtrendUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7B7555E217125A000504875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B7556E217125A200504875 /* LaunchScreen.storyboard in Resources */,
+				F7B7556B217125A200504875 /* Assets.xcassets in Resources */,
+				F7B75569217125A000504875 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B75572217125A200504875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D2526E5BDBF1C7233B2A13E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Flashtrend/Pods-Flashtrend-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyCam/SwiftyCam.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyCam.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flashtrend/Pods-Flashtrend-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		799073E75F329AA6447ED139 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flashtrend-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA460374F3E5698ABCD3C2D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlashtrendUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7B7555C217125A000504875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B75566217125A000504875 /* ViewController.swift in Sources */,
+				F77ED04E2171BEC4004E63AC /* PhotoViewController.swift in Sources */,
+				F7B75564217125A000504875 /* AppDelegate.swift in Sources */,
+				F77ED04D2171BEC4004E63AC /* VideoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B75570217125A200504875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B75579217125A200504875 /* FlashtrendUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7B75576217125A200504875 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7B7555F217125A000504875 /* Flashtrend */;
+			targetProxy = F7B75575217125A200504875 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7B75567217125A000504875 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7B75568217125A000504875 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7B7556C217125A200504875 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7B7556D217125A200504875 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7B7557B217125A200504875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7B7557C217125A200504875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7B7557E217125A200504875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 340F1DF8A8B22630BBA9F2D1 /* Pods-Flashtrend.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J47Q59FP9V;
+				INFOPLIST_FILE = Flashtrend/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shahid.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7B7557F217125A200504875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47EED99AC53C666822F94F9C /* Pods-Flashtrend.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J47Q59FP9V;
+				INFOPLIST_FILE = Flashtrend/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shahid.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7B75581217125A200504875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CB9F896DC449CDC9D568616 /* Pods-FlashtrendUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J5KJRAXC5X;
+				INFOPLIST_FILE = FlashtrendUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shahid.FlashtrendUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Flashtrend;
+			};
+			name = Debug;
+		};
+		F7B75582217125A200504875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4DC20B2D9361EE247DB3B52 /* Pods-FlashtrendUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J5KJRAXC5X;
+				INFOPLIST_FILE = FlashtrendUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shahid.FlashtrendUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Flashtrend;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7B7555B217125A000504875 /* Build configuration list for PBXProject "Flashtrend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7B7557B217125A200504875 /* Debug */,
+				F7B7557C217125A200504875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7B7557D217125A200504875 /* Build configuration list for PBXNativeTarget "Flashtrend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7B7557E217125A200504875 /* Debug */,
+				F7B7557F217125A200504875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7B75580217125A200504875 /* Build configuration list for PBXNativeTarget "FlashtrendUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7B75581217125A200504875 /* Debug */,
+				F7B75582217125A200504875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7B75558217125A000504875 /* Project object */;
+}
